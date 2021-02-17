@@ -1,0 +1,443 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.justify-content-flex-end {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: left !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+main .container .section-cadaster {
+  padding: 0 90px;
+}
+
+main .container .section-cadaster header {
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#605C3C), to(#3C3B3F));
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .section-cadaster header .button-back {
+  color: white;
+  font-size: 1.5em;
+}
+
+main .container .section-cadaster header .button-back:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+main .container .section-cadaster header span:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 15px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .container .section-cadaster header button {
+  background: #3C3B3F;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main .container .section-cadaster header button:hover {
+  background: white;
+  color: black;
+}
+
+main .container .section-cadaster__middler {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 10px 3px 15px -7px #d3d3d3, 3px 0px 27px -5px rgba(0, 0, 0, 0.64);
+          box-shadow: 10px 3px 15px -7px #d3d3d3, 3px 0px 27px -5px rgba(0, 0, 0, 0.64);
+}
+
+main .container .section-cadaster__middler .col span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  background: #d3d3d3;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+main .container .section-cadaster__middler .col span i {
+  color: gray;
+}
+
+main .container .section-cadaster__middler .col span:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 0px 10px 13px -7px gray, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+main .container .section-cadaster__middler .col-6 {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+main .container .section-cadaster__middler .col-6 select {
+  width: 230px;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+main .container .section-cadaster__middler .col-6 select:focus {
+  outline: none;
+}
+
+main .container .section-cadaster__middler .col-6 input {
+  width: 230px;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+main .container .section-cadaster__middler .col-6 input:focus {
+  border-bottom: 1px solid #3C3B3F;
+  outline: none;
+}
+
+main .container .section-cadaster__middler .col-6 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section-cadaster__middler .col-6 .i {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .container .section-cadaster__middler .col-6 .margin-5 {
+  margin: 10px 10px 10px 0px;
+}
+
+main .container .section-cadaster__middler .col-6 .flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .container .section-cadaster__bottom {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  -webkit-box-shadow: 10px 3px 15px -7px #d3d3d3, 3px 14px 27px -5px rgba(0, 0, 0, 0.64);
+          box-shadow: 10px 3px 15px -7px #d3d3d3, 3px 14px 27px -5px rgba(0, 0, 0, 0.64);
+}
+
+main .container .section-cadaster__bottom h3 {
+  margin: 5px 0px;
+}
+
+main .container .section-cadaster__bottom .col {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .container .section-cadaster__bottom input {
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+main .container .section-cadaster__bottom input:focus {
+  border-bottom: 1px solid #3C3B3F;
+  outline: none;
+}
+
+main .container .section-cadaster__bottom .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section-cadaster__bottom .flex-2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .container .section-cadaster__bottom .margin-5 {
+  margin: 10px 10px 10px 0px;
+}
+
+main .container .section-list-companies header {
+  padding: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#605C3C), to(#3C3B3F));
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .section-list-companies header .button-back {
+  color: white;
+  margin: 0px 15px 0px 0px;
+}
+
+main .container .section-list-companies .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+main .container .section-list-companies table {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+  border: 1px solid #d3d3d3;
+}
+
+main .container .section-list-companies table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  background: white;
+}
+
+main .container .section-list-companies table thead tr th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+main .container .section-list-companies table tbody {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+main .container .section-list-companies table tbody:nth-child(2n+0) {
+  background: whitesmoke !important;
+}
+
+main .container .section-list-companies table tbody:hover {
+  background: wheat !important;
+}
+
+main .container .section-list-companies table tbody tr {
+  background: white;
+}
+
+main .container .section-list-companies table tbody tr:nth-child(2n+0) {
+  background: whitesmoke !important;
+}
+
+main .container .section-list-companies table tbody tr:hover {
+  background: wheat !important;
+}
+
+main .container .section-list-companies table tbody tr td {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selected-view {
+  border-left: 5px solid green;
+}
+
+main {
+  font-family: 'Courier New', Courier, monospace;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1280px;
+  min-height: 600px;
+  margin: 0 auto;
+  background: gray;
+  border: 1px solid #d3d3d3;
+}
+
+main aside {
+  background: -webkit-gradient(linear, left top, right top, from(#605C3C), to(#3C3B3F));
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main aside div {
+  padding: 30px;
+  opacity: 0.5;
+  border-left: 5px solid transparent;
+}
+
+main aside div:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-left: 5px solid green;
+}
+
+main aside div i {
+  font-size: 1.5em;
+  color: white;
+  position: relative;
+}
+
+main section {
+  background: whitesmoke;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main section .header {
+  padding: 30px;
+  background: white;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+main section .header h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+main section .container {
+  padding: 30px;
+  background: whitesmoke;
+  height: auto;
+}
+
+main section .container h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+main section .container .content-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section .container .content-main .item {
+  width: 300px;
+  background: white;
+  border: 1px solid #d3d3d3;
+  margin: 10px 10px 10px 0px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+main section .container .content-main .item:hover {
+  border-bottom: 1px solid gray;
+}
+
+main section .container .content-main .item i {
+  font-size: 5em;
+  color: gray;
+}
+
+main section .container .content-main .item span:nth-child(2) {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

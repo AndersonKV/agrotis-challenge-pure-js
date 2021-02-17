@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGROTIS</title>
+    <!-- Load FontAwesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script>
+      window.addEventListener("load", function () {
+        const c = new Companies();
+        const t = new Template();
+        //c.setEventHandler();
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <div id="home"><i class="fas fa-arrow-alt-circle-up"></i></div>
+        <div id="list-companies"><i class="fas fa-building"></i></div>
+        <div id="register-companies"><i class="fas fa-store"></i></div>
+      </aside>
+      <section>
+        <header class="header"><h1>AGROTIS</h1></header>
+        <div class="container">
+          <div><h1>Inicio</h1></div>
+          <div class="content-main">
+            <div class="item" id="list-companies">
+              <span>
+                <i class="fas fa-building"></i>
+              </span>
+              <span>Listar empresas</span>
+            </div>
+            <div class="item" id="register-companies">
+              <span>
+                <i class="fas fa-store"></i>
+              </span>
+              <span>Cadastrar empresas</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="js/main.js"></script>
+</html>
